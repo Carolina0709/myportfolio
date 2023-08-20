@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&family=Hind+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&family=Hind+Madurai:wght@500&family=Lora:wght@600&display=swap');
+
+
+body{
+    background-image: url("../imagenes/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'Hind Madurai', sans-serif !important;
+    font-style: italic;
+    color: #fff;
+}
+
+/*Header styles*/
+.navbar img{
+    height: 5rem;
+}
+.navbar .nav-link{
+    color: #EFD9D1;
+    border-radius: 5px;
+    
+}
+.navbar .active{
+    color: #fff !important; 
+    font-weight: bold;
+}
+.navbar .active:hover{
+    color: #999B84 !important; 
+}
+.navbar .nav-link:hover{
+    background-color: #EFD9D1;
+    color: #999B84;
+}
+.navbar .btn-primary, .btn-full-pink, .contact .btn-primary{ /*btn hero section and btn contact section*/
+    background-color: #D8AC9C;
+    border-color: #D8AC9C;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.10);
+}
+.navbar .btn-primary:hover, .btn-full-pink:hover, .btn-outline-primary:hover, .contact .btn-primary:hover{ /*btns hero section*/
+    background-color: #EFD9D1;
+    color: #999B84;
+    border-color: #EFD9D1;
+}
+.navbar-toggler{
+    color: #EFD9D1 !important;
+}
+
+/*Hero section*/
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.hero-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.hero-buttons button{
+    width: 150px;    
+    flex: 1;
+    margin-right: 10px;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    color: #EFD9D1;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: normal;
+}
+h1 span{
+    color: #fff;
+}
+h3{
+    font-size: 0.8rem;
+}
+p{
+    font-size: 1rem;
+}
+.hero-imagen img{
+    width: 80%;
+    border-radius: 50%;
+    border: #EFD9D1 solid 5px;
+    margin-top: 4rem;
+}
+.hero-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-outline-primary{
+    font-weight: bold;
+    color: #EFD9D1;
+    border-color: #EFD9D1;
+}
+
+/*About and soft-skills sections*/
+.about{
+    margin-top: 5rem;
+}
+.about h3, .sotf-skills h3{
+    text-align: center;
+    font-size: .8rem;
+}
+.about h2, .sotf-skills h2{
+    font-family: 'Lora', serif;
+    color: #EFD9D1;
+    font-size: 2rem;
+    font-style: normal;
+    text-align: center;
+}
+.ctn-about-item{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.ctn-about-item .about-item{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ctn-about-item .about-item img{
+    width: 60%;
+    border-radius: 15px;
+    border: solid #D8AC9C 4px;
+    box-shadow: -26px 40px 0px 2px #D8AC9C;
+}
+.ctn-about-item .about-item p{
+    width: 90%;
+    text-align: center;
+}
+.about-item-img{
+    order: 2;
+    margin-top: 2rem;
+}
+.sotf-skills{
+    margin-top: 10rem;
+}
+.ctn-softskills-item .about-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.ctn-softskills-item .about-item .ctn-softskills-img{
+    width: 70%;
+    border-radius: 50%;
+    background-color: #D8AC9C;
+}
+.ctn-softskills-item .about-item img{
+    width: 100%;
+}
+.ctn-softskills-item .about-item p{
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*hard skills section*/
+.hard-skills{
+    margin-top: 10rem;
+}
+.hard-skills h2{
+    font-family: 'Lora', serif;
+    color: #EFD9D1;
+    font-size: 2rem;
+    font-style: normal;
+
+}
+.ctn-hardskills p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 0;
+    margin-top: 3rem;
+}
+.ctn-hardskills .row-percent{
+    text-align: end;
+    color: #EFD9D1;
+    font-weight: normal;
+}
+
+.ctn-hardskills .pink-line{
+    width: 100%;
+    height: 5px;
+    background-color: #D8AC9C;
+    border-radius: 15px;
+}
+.ctn-hardskills .light-pink-line{
+    width: 100%;
+    height: 5px;
+    background-color: #EFD9D1;
+    border-radius: 15px;
+}
+.ctn-hardskills .line95{
+    width: 95%;
+}
+.ctn-hardskills .line90{
+    width: 90%;
+}
+.ctn-hardskills .line85{
+    width: 85%;
+}
+.ctn-hardskills .line80{
+    width: 80%;
+}
+.ctn-hardskills .line70{
+    width: 70%;
+}
+/*portfolio-text section*/
+.portfolio-text{
+    margin-top: 5rem;
+}
+.portfolio-text-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.portfolio-text-img{
+    align-items: center;
+}
+.portfolio-text-img img{
+    width: 60%;
+    border-radius: 15px;
+    border: solid #D8AC9C 4px;
+    box-shadow: 30px 40px 0px 2px #D8AC9C;
+}
+.portfolio-text-item h3{
+    margin-top: 7rem;
+}
+.portfolio-text-item h2, .container h2{ /*contact title*/
+    font-family: 'Lora', serif;
+    color: #EFD9D1;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+/*portfolio-link section*/
+.portfolio-link{
+    margin-top: 10rem;
+}
+.portfolio-link img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+.portfolio-link .portfolio-link-img{
+    height: 20rem;
+}
+.portfolio-link-flex{
+    padding: 0%;
+}
+
+/*Contact section*/
+.contact{
+    margin-top: 5rem;
+}
+.contact-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+.contact img{
+    width: 30%;
+}
+.contact-icons{
+    display: flex;
+    font-size: 1rem;
+}
+.contact-icons .icon-item{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #D8AC9C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.contact-icons i{
+    color: #EFD9D1;
+}
+
+.form-text{
+    color: #EFD9D1;
+}
+@media (min-width: 500px){
+    .about h3, h3, p, .sotf-skills h3{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+}
+@media (min-width: 768px){
+	.hero-imagen img{
+        margin-top: 0;
+    }
+    .hero-imagen{
+        justify-content: flex-end;
+    }
+    .about{
+        margin-top: 10rem;
+    }
+    .ctn-about-item .about-item p{
+        width: 100%;
+    }
+    .portfolio-text-item h3{
+        margin-top: 0;
+    }
+    .portfolio-text-img{
+        order: 2;
+    }
+    .portfolio-text{
+        margin-top: 10rem;
+    }
+    .contact-item{
+        align-items: flex-start;
+    }
+    
+}
+
+footer p {
+    color: #EFD9D1!important;
+    font-size: 0.8rem;
+}
+@media (min-width: 991px){
+	.hero-imagen img{
+        width: 60%;
+    }
+    .ctn-about-item{
+        flex-direction: row;
+    }
+    .about-item-img{
+        order: 0;
+        margin-top: 0;
+    }
+    .ctn-about-item .about-item p{
+        text-align: left;
+    }
+    .ctn-softskills-item .about-item{
+        margin-top: 0;
+    }
+}
